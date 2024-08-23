@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+.inputxt{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+header{
+    background-color: #BBB6B6;
+    display: flex;
+}
+header::after{
+    left:235px;
+    top: 28px;
+    height: 34px;
+    width: 1px;
+    content: "";
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+}
+header::before{
+    left:202px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+    content: "";
+    background-size: cover;
+    background-image: url(lupa-arredondada.png);
+    position: absolute;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: whitesmoke;
+    height: 80vhvh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    gap: 80px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+footer{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.produto1{
+    height: 100px;
+}
+h1{
+    padding-left: 14px;
+    padding-top: 30px;
+}
+.divproduto{
+    background-color: #BBB6B6;
+    display: flex
+}
+.bnt{
+    padding-left: 900px;
+}
+.bnt1{
+    border: none;
+    color: whitesmoke;
+    background-color: red;
+    padding: 1pc;
+}
